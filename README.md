@@ -14,6 +14,7 @@ This tool restores selected macOS/system settings and user data from a mounted T
 
 ## Before You Start (Important)
 **Step 0: Disable automatic Time Machine backups.**
+Consider installing homebrew first and update BASH and RSYNC. It'll work as-is but it wont hurt and will speed things up.
 
 System Settings → Time Machine: set to **Manual** / disable automatic backups.  
 Some restore phases can restore prior system state and may re-enable automatic backups from the selected restore point.
