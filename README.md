@@ -4,6 +4,9 @@ macOS restore TUI for when Migration Assistant hurt you.
 
 This tool restores selected macOS/system settings and user data from a mounted Time Machine backup (the `macOS - Data` folder). It is designed for “fresh install, then restore in a known-good order” and keeps detailed, per-session logs (no mixing between sessions).
 
+<img width="913" height="594" alt="1ttsplash" src="https://github.com/user-attachments/assets/933def58-6fba-488b-92df-1961f15f8ca3" />
+
+
 ## Safety Model (Why this exists)
 - **No silent rollbacks**: the app doesn’t “undo” work if something fails.
 - **Retry-safe by design**: you can rerun phases repeatedly after failures (no `rsync --delete*`, no `--remove-source-files`, no `--inplace`, no automatic cleanup).
